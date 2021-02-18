@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mike's Steakhouse</title>
+</head>
+<body>
+
+<h2>Mike's Steakhouse Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+        <legend>Account Information</legend>
+        <div class="field">
+            <label>Username:</label> 
+            <label></label>
+            <input type="text" name="username">
+        <div class="field">
+            <label>Phone#:</label> 
+            <label></label>
+            <input type="text" name="phone">
+        <div class="field">
+            <label>Email:</label> 
+            <label></label>
+            <input type="text" name="email">
+        </div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+        </div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="first name">
+        </div>
+        <div class="field">
+			<label>Last Name:</label> 
+			<input type="text" name="last name">
+		</div>
+		<div class="field">
+			<label>Street Address:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>City:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>State:</label> 
+			<select name="state">
+				<option value="" selected="true">Choose a State</option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>ZIP:</label> 
+			<input type="text" name="zip">
+        </div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Tell us about yourself</legend>
+		<div class="field">
+			<label>Why do you deserve a job at Mike's Steakhouse?</label><br>
+			<textarea name="deserve" rows="4" cols="60"></textarea>
+        </div>
+        <div class="field">
+			<label>How do you prefer to eat your steak?</label><br>
+			<textarea name="preference" rows="4" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe yourself in 3 sentences:</label><br>
+			<textarea name="describe" rows="4" cols="60"></textarea>
+        </div>
+        <div class="field">
+			<label>How did you find out about us?:</label><br>
+			<textarea name="reference" rows=4 cols="60"></textarea>
+        </div>
+        <div class="field">
+			<label>Are you willing to dress up as a steak for the entirety of your shift?:</label><br>
+			<input type="radio" name="steak uni" value="yes">Yes
+			<input type="radio" name="steak uni" value="no">No	
+		</div>
+    </fieldset>
+
+    <fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Do you have a reliable mode of transportation?</label> 
+			<input type="radio" name="transportation" value="yes">Yes
+			<input type="radio" name="transportation" value="no">No
+        </div>
+        <div class="field">
+			<label>Do you actually want to work here?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No but I need the money
+		</div>
+		<div class="field">
+			<label>What position(s) are you interested in? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="cook">Cook</li>
+				<li><input type="checkbox" name="position_ft" value="expo">Expo</li>
+				<li><input type="checkbox" name="position_sl" value="waiter">Waiter</li>
+                <li><input type="checkbox" name="position_tp" value="greeter">Greeter</li>
+                <li><input type="checkbox" name="position_tp" value="manager">Manager</li>
+
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+        </div> <br>
+
+        <div class="field">
+			<label>Are there any day(s) you are able to come in at any given time, with no heads-up? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="available_day" value="monday">Monday</li>
+				<li><input type="checkbox" name="available_day" value="tuesday">Tuesday</li>
+				<li><input type="checkbox" name="available_day" value="wednesday">Wednesday</li>
+                <li><input type="checkbox" name="available_day" value="thursday">Thursday</li>
+                <li><input type="checkbox" name="available_day" value="friday">Friday</li>
+                <li><input type="checkbox" name="available_day" value="saturday">Saturday</li>
+
+			</ul>
+		</div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Steak Experience</legend>
+        <div class="field">
+			<label>Level of steak connoisseur:</label> <br>
+            <input type="radio" name="answer" value="newbie"> Newbie<br> <input type="radio" name="answer" value="apprentice"> Apprentice <br>
+            <input type="radio" name="answer" value="master"> Master
+        </div>
+        <div class="field">
+			<label>Do you have any prior experience at a steakhouse?</label> 
+            <input type="radio" name="prior exp" value="yes">Yes
+			<input type="radio" name="prior exp" value="no">No	
+		</div>
+        <div class="field">
+            <label>How many years of experience do you have cooking and/or eating steaks?</label> <br>
+            <textarea name="steak exp" rows="3" cols="30"></textarea>        </div>
+		<div class="field">
+			<label>Why is steak superior to every other meat?</label> <br>
+            <textarea name="steak superior" rows="3" cols="30"></textarea>        </div>
+        </div>
+	</fieldset>
+<br>
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
